@@ -34,23 +34,27 @@ p a:hover, p a:focus {
     color: #101010;
 }
 
-/* —————————— Header & Nav —————————— */
 
-div#header-content {
-    padding-top: 160px;
-    padding-bottom: 100px;
-}
+
+
 div#about {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-div#project {
+div#project, div#post {
     padding-top: 60px;
     padding-bottom: 50px;
 }
 footer {
     padding-top: 60px;
     padding-bottom: 120px;
+}
+
+/* —————————— Header & Nav —————————— */
+
+div#header-content {
+    padding-top: 160px;
+    padding-bottom: 100px;
 }
 #logo {
     left: 0px;
