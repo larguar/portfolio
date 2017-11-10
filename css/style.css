@@ -8,6 +8,9 @@ img {width: 100%;}
 .bg-light {
     background-color: #f1f1f1!important;
 }
+.shadow {
+    box-shadow: 0 20px 24px rgba(0,0,0,0.06)!important;
+}
 
 h1, p.lead {
     font-size: 18px;
