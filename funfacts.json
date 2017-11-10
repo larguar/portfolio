@@ -18,6 +18,26 @@
         {
             "number": "4",
             "fact": "Fun Fact 4",
+            "color": "lightyellow"
+        },
+        {
+            "number": "5",
+            "fact": "Fun Fact 5",
+            "color": "lightpink"
+        },
+        {
+            "number": "6",
+            "fact": "Fun Fact 6",
+            "color": "lightcoral"
+        },
+        {
+            "number": "7",
+            "fact": "Fun Fact 7",
+            "color": "coral"
+        },
+        {
+            "number": "8",
+            "fact": "Fun Fact 8",
             "color": "lightgray"
         }
     ]

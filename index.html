@@ -171,14 +171,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 	
-$.getJSON('https://siminski.github.io/portfolio/funfacts.json', function(data) {
+$.getJSON('funfacts.json', function(data) {
 
 var cardArray = data.promptcards;
 
 var randomCard = cardArray[Math.floor(Math.random()*cardArray.length)];
 console.log(randomCard);
 
-$("#funfact strong").css("color", randomCard.headshot);
+$("#funfact strong").css("color", randomCard.color);
 $("#funfact strong").text(randomCard.fact);
 
 });
