@@ -1,0 +1,24 @@
+{
+    "promptcards": [
+        {
+            "number": "1",
+            "fact": "Fun Fact 1",
+            "color": "skyblue"
+        },
+        {
+            "number": "2",
+            "fact": "Fun Fact 2",
+            "color": "pink"
+        },
+        {
+            "number": "3",
+            "fact": "Fun Fact 3",
+            "color": "lavender"
+        },
+        {
+            "number": "4",
+            "fact": "Fun Fact 4",
+            "color": "lightgray"
+        }
+    ]
+}

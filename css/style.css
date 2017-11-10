@@ -1,0 +1,235 @@
+/* —————————— General —————————— */
+
+* {-webkit-font-smoothing: antialiased!important;}
+body {font-family: 'Open Sans', sans-serif!important;letter-spacing: 0.1px!important;}
+a:hover {text-decoration: none!important;}
+.dim {opacity: 0.75;}
+img {width: 100%;}
+
+h2 {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #444;
+}
+p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    color: #444;
+}
+p.lead {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #444;
+}
+p a {
+    color: #423d44;
+    transition: ease 0.1s!important;
+    font-weight: 600;
+}
+p a:hover, p a:focus {
+    color: #101010;
+}
+
+/* —————————— Header & Nav —————————— */
+
+div#header-content {
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+div#about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+div#project {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+footer {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+#logo {
+    left: 0px;
+}
+#logo img {
+    max-width: 36px;
+    margin-top: 16px;
+    margin-right: 2px;
+}
+ul.ms-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    left: 10px;
+}
+ul.ms-nav a {
+	outline: none !important;
+}
+#ms-menu {
+	display: none;
+}
+.ms-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ms-nav > .ms-main {
+	position: relative;
+}
+
+.ms-nav > .ms-li {
+	position: absolute;
+	top: 0;
+	left: 8px;
+	transition: top .5s ease;
+	z-index: 1;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li a {
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li1 {
+	top: 120%;
+	transition: top .5s ease;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li1 a span {
+	opacity: 1;
+	transition: opacity .5s ease .1s;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li2 {
+	top: 215%;
+	transition: top .6s ease;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li2 a span {
+	opacity: 1;
+	transition: opacity .6s ease .2s;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li3 {
+	top: 310%;
+	transition: top .7s ease;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li3 a span {
+	opacity: 1;
+	transition: opacity .7s ease .3s;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li4 {
+	top: 405%;
+	transition: top .8s ease;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li4 a span {
+	opacity: 1;
+	transition: opacity .8s ease .4s;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-main span {
+	transition: transform .35s ease;
+}
+.ms-nav .ms-menu-toggle ~ .ms-main span {
+	transition: transform .35s ease;
+	opacity: 1;
+}
+.ms-nav > .ms-main > a {
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.35);
+}
+.ms-nav > li a {
+	font-size: 22px;
+	color: #aaa;
+	background: #fff;
+	width: 60px;
+	height: 60px;
+	display: block;
+	border-radius: 100%;
+	position: relative;
+	text-align: center;
+	transition: ease 0.3s;
+}
+.ms-nav > li a:hover {
+	color: #fff;
+}
+.ms-nav > li.ms-li1 a:hover {
+	background: #f36d2e;
+}
+.ms-nav > li.ms-li2 a:hover {
+	background: #fcd3cd;
+}
+.ms-nav > li.ms-li3 a:hover {
+	background: #4e6bb3;
+}
+.ms-nav > .ms-main a,
+.ms-nav > .ms-main > a > label {
+	font-size: 30px;
+	color: #FFFFFF;
+	background: #101010;
+	width: 75px;
+	height: 75px;
+	display: block;
+	border-radius: 0;
+	position: relative;
+	text-align: center;
+	z-index: 19;
+	transition: ease 0.3s;
+}
+.ms-nav > .ms-main a:hover,
+.ms-nav > .ms-main > a:hover > label {
+	background: #423d44;
+}
+.ms-nav > li > a span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 30px;
+	width: 30px;
+	opacity: 0;
+	z-index: 12;
+}
+.ms-nav > li .fa {
+	margin-top: 19.5px;
+}
+
+
+
+/* —————————— Media Queries —————————— */
+
+@media (max-width: 1199px) {
+	
+}
+
+@media (max-width: 991px) {
+	
+}
+
+@media (max-width: 767px) {
+
+p.lead {
+    font-size: 17px;
+    line-height: 28px;
+}
+h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+div#header-content {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+footer {
+    padding-bottom: 100px;
+}
+	
+}
+
+@media (min-width: 575px) {
+
+ul.ms-nav {
+    left: 20px;
+}
+.ms-nav > li a {
+    color: #ddd;
+}
+	
+}
