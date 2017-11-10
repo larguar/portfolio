@@ -5,7 +5,19 @@ body {font-family: 'Open Sans', sans-serif!important;letter-spacing: 0.1px!impor
 a:hover {text-decoration: none!important;}
 .dim {opacity: 0.75;}
 img {width: 100%;}
+.bg-light {
+    background-color: #f1f1f1!important;
+}
 
+h1, p.lead {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #444;
+}
+h1 {
+	font-weight: 600;
+}
 h2 {
     font-size: 22px;
     line-height: 36px;
@@ -16,12 +28,6 @@ p {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.25px;
-    font-weight: 400;
-    color: #444;
-}
-p.lead {
-    font-size: 18px;
-    line-height: 32px;
     font-weight: 400;
     color: #444;
 }
@@ -48,6 +54,18 @@ div#project, div#post {
 footer {
     padding-top: 60px;
     padding-bottom: 120px;
+}
+div#tweet {
+    background: #f1f1f1!important;
+    padding: 60px 0!important;
+    width: 100%!important;
+}
+twitterwidget {
+    margin: 0 auto;
+}
+div#content {
+    padding-top: 0;
+    padding-bottom: 60px;
 }
 
 /* —————————— Header & Nav —————————— */
@@ -209,7 +227,7 @@ ul.ms-nav a {
 
 @media (max-width: 767px) {
 
-p.lead {
+h1, p.lead {
     font-size: 17px;
     line-height: 28px;
 }
