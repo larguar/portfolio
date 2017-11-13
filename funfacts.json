@@ -3,42 +3,42 @@
         {
             "number": "1",
             "fact": "I’m not afraid to use open source fonts.",
-            "color": "skyblue"
+            "color": "#ff5252"
         },
         {
             "number": "2",
             "fact": "My heart actually beats 10+ bpm faster whenever I see a dog.",
-            "color": "pink"
+            "color": "#fca24e"
         },
         {
             "number": "3",
             "fact": "I enjoy building out a website more than I enjoy designing it.",
-            "color": "lavender"
+            "color": "#00c1d5"
         },
         {
             "number": "4",
             "fact": "My favorite color is black.",
-            "color": "#000"
+            "color": "#000000"
         },
         {
             "number": "5",
             "fact": "I’m a Virgo so I like it when things are perfect.",
-            "color": "lightpink"
+            "color": "#F9B300"
         },
         {
             "number": "6",
             "fact": "I sell my clothes for travel money.",
-            "color": "lightcoral"
+            "color": "#822432"
         },
         {
             "number": "7",
             "fact": "Well designed ampersands make the world a better place.",
-            "color": "coral"
+            "color": "#f77f76"
         },
         {
             "number": "8",
             "fact": "I definitely prefer Sketch (sorry Adobe).",
-            "color": "lightgray"
+            "color": "#fd9800"
         }
     ]
 }
