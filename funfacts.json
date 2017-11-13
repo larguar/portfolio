@@ -2,42 +2,42 @@
     "promptcards": [
         {
             "number": "1",
-            "fact": "Fun Fact 1",
+            "fact": "I’m not afraid to use open source fonts.",
             "color": "skyblue"
         },
         {
             "number": "2",
-            "fact": "Fun Fact 2",
+            "fact": "My heart actually beats 10+ bpm faster whenever I see a dog.",
             "color": "pink"
         },
         {
             "number": "3",
-            "fact": "Fun Fact 3",
+            "fact": "I enjoy building out a website more than I enjoy designing it.",
             "color": "lavender"
         },
         {
             "number": "4",
-            "fact": "Fun Fact 4",
-            "color": "lightyellow"
+            "fact": "My favorite color is black.",
+            "color": "#000"
         },
         {
             "number": "5",
-            "fact": "Fun Fact 5",
+            "fact": "I’m a Virgo so I like it when things are perfect.",
             "color": "lightpink"
         },
         {
             "number": "6",
-            "fact": "Fun Fact 6",
+            "fact": "I sell my clothes for travel money.",
             "color": "lightcoral"
         },
         {
             "number": "7",
-            "fact": "Fun Fact 7",
+            "fact": "Well designed ampersands make the world a better place.",
             "color": "coral"
         },
         {
             "number": "8",
-            "fact": "Fun Fact 8",
+            "fact": "I definitely prefer Sketch (sorry Adobe).",
             "color": "lightgray"
         }
     ]
