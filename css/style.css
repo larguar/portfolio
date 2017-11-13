@@ -9,7 +9,7 @@ img {width: 100%;}
     background-color: #f1f1f1!important;
 }
 .shadow {
-    box-shadow: 0 20px 24px rgba(0,0,0,0.06)!important;
+    border: 1px solid #ddd;
 }
 
 h1, p.lead {
@@ -59,8 +59,8 @@ footer {
     padding-bottom: 120px;
 }
 div#tweet {
-    background: #f1f1f1!important;
-    padding: 60px 0!important;
+    background: #f1f1f1;
+    padding: 60px 0;
     width: 100%!important;
 }
 twitterwidget {
@@ -255,6 +255,12 @@ ul.ms-nav {
 }
 .ms-nav > li a {
     color: #ddd;
+}
+
+div#tweet {
+    background: transparent!important;
+    padding: 0!important;
+    width: 100%!important;
 }
 	
 }
