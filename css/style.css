@@ -60,7 +60,6 @@ footer {
 }
 div#tweet {
     background: #f1f1f1;
-    padding: 60px 0;
     width: 100%!important;
 }
 twitterwidget {
@@ -248,19 +247,13 @@ footer {
 	
 }
 
-@media (min-width: 575px) {
+@media (max-width: 575px) {
 
 ul.ms-nav {
     left: 20px;
 }
 .ms-nav > li a {
     color: #ddd;
-}
-
-div#tweet {
-    background: transparent!important;
-    padding: 0!important;
-    width: 100%!important;
 }
 	
 }
