@@ -7,17 +7,17 @@
         },
         {
             "number": "2",
-            "fact": "My heart actually beats 10+ bpm faster whenever I see a dog.",
+            "fact": "I made an Instagram page for my dog and I'm not ashamed (shameless plug: @rengstagram)",
             "color": "#0fbfa1"
         },
         {
             "number": "3",
-            "fact": "I enjoy building out a website more than I enjoy designing it.",
+            "fact": "I enjoy building out a website more than I enjoy designing it (most of the time).",
             "color": "#00c1d5"
         },
         {
             "number": "4",
-            "fact": "My favorite color is black.",
+            "fact": "My favorite color is #333.",
             "color": "#000000"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "number": "6",
-            "fact": "I sell my clothes for travel money.",
+            "fact": "I started a small business (side hustle) for travel money.",
             "color": "#c43c51"
         },
         {
@@ -39,6 +39,11 @@
             "number": "8",
             "fact": "I definitely prefer Sketch (sorry Adobe).",
             "color": "#fd9800"
+        },
+		{
+            "number": "9",
+            "fact": "Google Spreadsheets are my true passion.",
+            "color": "#ff5252"
         }
     ]
 }
